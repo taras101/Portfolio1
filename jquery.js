@@ -10,8 +10,10 @@
   $("h3").fadeOut(2000);
   $("h3").fadeIn(1000);
 });
-
-
+function moveSpk(){
+	$("img").setAttribute("src","spk-w4.gif")
+};
+ // setInterval(moveSpk , 1000);
 
 
 
