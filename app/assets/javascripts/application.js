@@ -16,16 +16,13 @@
 //= require_tree .
 
  $(document).ready(function() {
+	function moveSpk(delay){
+	$(".spk")[0].setAttribute("src","/assets/spk-w6.gif")
 
-  $("h2").fadeOut(1500);
-	$("h2").fadeIn(1000);
-	$("span").delay(2500).fadeOut(600);
-	$("span").fadeIn(800);
-	$("pre").fadeOut(2000);
-	$("pre").fadeIn(1000);
-  $("h3").fadeOut(2000);
-  $("h3").fadeIn(1000);
+	};
+  $("h2").fadeOut(1500).fadeIn(1000);
+	$("span").delay(2500).fadeOut(600).fadeIn(800);
+	$("pre").fadeOut(2000).fadeIn(1000);
+  $("h3").fadeOut(2000).fadeIn(1000);
+  moveSpk(3000);
 });
-function moveSpk(){
-	$("img").setAttribute("src","spk-w4.gif")
-};
