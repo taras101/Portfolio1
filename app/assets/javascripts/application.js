@@ -17,7 +17,7 @@
 
  $(document).ready(function() {
 	function moveSpk(delay){
-	$(".spk")[0].setAttribute("src","/assets/spk-w6.gif")
+	$(".spk")[0].setAttribute("src","/assets/animatedspk2.gif")
 
 	};
   $("h2").fadeOut(1500).fadeIn(1000);
