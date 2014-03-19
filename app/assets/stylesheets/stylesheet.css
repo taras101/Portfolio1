@@ -30,17 +30,13 @@ li{
 }
 body{
 	background-color: #283975;
-	/*background-image: url('images/serpentone_bg1.gif');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 200px;*/
+	font-family:  "Monda", "Arial Black";
 	border: 0;
 	padding: 0;
 	margin: 0;
 }
 h2{
 	color: #DCE2F7;
-	font-family:  "Monda", "Arial Black";
 	text-align: center;
 	font-size: 2.8em;
 }
@@ -52,8 +48,8 @@ img.spk{
 	max-width: 100%;
 }
 pre{
-	color: #3B65FC;
 	font-family:  "Monda", "Arial Black";
+	color: #3B65FC;
 	font-weight: 700;
 	text-align: center;
 	font-size: 4em;
@@ -62,7 +58,6 @@ pre{
 }
 h3{
 	color: #3B65FC;
-	font-family:  "Monda", "Arial Black";
 	font-weight: 700;
 	text-align: center;
 	font-size: 1.7em;
@@ -85,5 +80,4 @@ iframe{
 }
 .done span{
 	color: #3B65FC;
-
 }

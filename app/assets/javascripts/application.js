@@ -18,7 +18,6 @@
  $(document).ready(function() {
 	function moveSpk(delay){
 	$(".spk")[0].setAttribute("src","/assets/animatedspk2.gif")
-
 	};
   $("h2").fadeOut(1500).fadeIn(1000);
 	$("span").delay(2500).fadeOut(600).fadeIn(800);
