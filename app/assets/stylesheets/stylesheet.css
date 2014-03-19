@@ -30,6 +30,7 @@ li{
 }
 body{
 	background-color: #283975;
+	color: #3B65FC;
 	font-family:  "Monda", "Arial Black";
 	border: 0;
 	padding: 0;
@@ -49,7 +50,6 @@ img.spk{
 }
 pre{
 	font-family:  "Monda", "Arial Black";
-	color: #3B65FC;
 	font-weight: 700;
 	text-align: center;
 	font-size: 4em;
@@ -57,8 +57,6 @@ pre{
 /*	opacity: 0;*/
 }
 h3{
-	color: #3B65FC;
-	font-weight: 700;
 	text-align: center;
 	font-size: 1.7em;
 	margin: 5px;
@@ -80,4 +78,8 @@ iframe{
 }
 .done span{
 	color: #3B65FC;
+}
+.bio{
+margin-left: 6em;
+margin-right: 6em;
 }
