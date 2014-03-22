@@ -1,0 +1,26 @@
+{
+  "name": "portfolio1",
+  "version": "0.0.0",
+  "description": "for color ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Taras101/Portfolio1.git"
+  },
+  "author": "Taras",
+  "license": "BSD",
+  "gitHead": "b4bb6121ac64cf95b113b0bb6ccd628d270968f7",
+  "readmeFilename": "README.md"
+}

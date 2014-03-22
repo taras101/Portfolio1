@@ -80,6 +80,11 @@ iframe{
 	color: #3B65FC;
 }
 .bio{
-margin-left: 6em;
-margin-right: 6em;
+	margin-left: 6em;
+	margin-right: 6em;
+	transition: color 1s ease;
+	color: white;
+}
+.bio:hover {
+  color: dodgerblue;
 }

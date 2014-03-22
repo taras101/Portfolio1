@@ -19,9 +19,12 @@
 	function moveSpk(delay){
 	$(".spk")[0].setAttribute("src","/assets/animatedspk2.gif")
 	};
+  $(".bio").fadeOut(1000).fadeIn(3000);
   $("h2").fadeOut(1500).fadeIn(1000);
 	$("span").delay(2500).fadeOut(600).fadeIn(800);
 	$("pre").fadeOut(2000).fadeIn(1000);
   $("h3").fadeOut(2000).fadeIn(1000);
   moveSpk(3000);
+
+
 });
