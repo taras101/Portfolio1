@@ -19,12 +19,29 @@
 	function moveSpk(delay){
 	$(".spk")[0].setAttribute("src","/assets/animatedspk2.gif")
 	};
-  $(".bio").fadeOut(1000).fadeIn(3000);
   $("h2").fadeOut(1500).fadeIn(1000);
 	$("span").delay(2500).fadeOut(600).fadeIn(800);
 	$("pre").fadeOut(2000).fadeIn(1000);
   $("h3").fadeOut(2000).fadeIn(1000);
   moveSpk(3000);
+	var $test = $('.bio');
+	var initText = $.trim($test.text()), ptr = 0;
+	var timer = setInterval(function() {
+	    var ln = $.trim($test.find('.trans').text().length);
+	      if (ln == initText.length) {
+	          $test.empty();
+	          clearInterval(timer);
+	      }
 
+	      $('.bio').html(function() {
+
+	          return $('<span>').addClass('removeMe')
+	              .html(initText.substring(ptr++ , ptr))
+	              .before($('<span>').addClass('trans').
+	                     html(initText.substring(0 , ptr-1)))
+	              .after(initText.substring(ptr));
+	      }).find('span.removeMe').animate({'opacity': 0}, 200);
+
+	  }, 300);
 
 });
