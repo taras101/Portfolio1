@@ -16,26 +16,39 @@
 //= require_tree .
 
  $(document).ready(function() {
+  $("h2").fadeOut(1500).fadeIn(1000);
+       $("span").delay(2500).fadeOut(600).fadeIn(800);
+       $("pre").fadeOut(2000).fadeIn(1000);
+       $("h3").fadeOut(2000).fadeIn(1000);
+     $(".bio").hide();
+            (function() {
+                    $("#burn-a").show().animate({top: "0"}, 800, function() {
+                      $("#burn-b").fadeIn(1500, function(){
+                            $("#burn-c").fadeIn(1500, function(){
+                              $("#burn-d").fadeIn("slow", function(){
+                                $("#burn-e").fadeIn("slow", function(){
+                                  $("#burn-f").fadeIn("slow", function(){
+                                    $("#burn-g").fadeIn("slow", function(){
+                                      $("#burn-h").fadeIn("slow", function(){
+                                        $("#burn-i").fadeIn("slow", function(){
+                                          $("#burn-j").fadeIn("slow", function(){
+                                            $("#burn-k").fadeIn("slow", function(){
+                                            });
+                                          });
+                                        });
+                                      });
+                                    });
+                                  });
+                                });
+                              });
+                            });
+                      });
+                    });
+             })();
 
-$(function() {
-    var $test = $('#burn');
-    var initText = $.trim($test.text()), ptr = 0;
-    var timer = setInterval(function() {
-        var ln = $.trim($test.find('.trans').text().length);
-        if (ln == initText.length) {
-            $test.empty();
-            clearInterval(timer);
-        }
+    function moveSpk(delay){
+       $(".spk")[0].setAttribute("src", "https://s3-us-west-2.amazonaws.com/s1portfolio/images/animatedspk2.gif")};
 
-        $('#burn').html(function() {
+      moveSpk(3000);
 
-            return $('<span>').addClass('removeMe')
-                .html(initText.substring(ptr++ , ptr))
-                .before($('<span>').addClass('trans').
-                       html(initText.substring(0 , ptr-1)))
-                .after(initText.substring(ptr));
-        }).find('span.removeMe').animate({'opacity': 0}, 200);
-
-    }, 300);
-});
 });
