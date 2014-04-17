@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 
  $(document).ready(function() {
@@ -25,14 +24,14 @@
                     $("#burn-a").show().animate({top: "0"}, 800, function() {
                       $("#burn-b").fadeIn(1500, function(){
                             $("#burn-c").fadeIn(1500, function(){
-                              $("#burn-d").fadeIn("slow", function(){
-                                $("#burn-e").fadeIn("slow", function(){
-                                  $("#burn-f").fadeIn("slow", function(){
-                                    $("#burn-g").fadeIn("slow", function(){
-                                      $("#burn-h").fadeIn("slow", function(){
-                                        $("#burn-i").fadeIn("slow", function(){
-                                          $("#burn-j").fadeIn("slow", function(){
-                                            $("#burn-k").fadeIn("slow", function(){
+                              $("#burn-d").fadeIn(1500, function(){
+                                $("#burn-e").fadeIn(1500, function(){
+                                  $("#burn-f").fadeIn(1500, function(){
+                                    $("#burn-g").fadeIn(1500, function(){
+                                      $("#burn-h").fadeIn(1500, function(){
+                                        $("#burn-i").fadeIn(1500, function(){
+                                          $("#burn-j").fadeIn(1500, function(){
+                                            $("#burn-k").fadeIn(1500, function(){
                                             });
                                           });
                                         });
