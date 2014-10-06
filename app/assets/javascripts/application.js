@@ -15,6 +15,7 @@
 //= require_tree .
 
  $(document).ready(function() {
+
   $("h2").fadeOut(1500).fadeIn(1000);
        $("span").delay(2500).fadeOut(600).fadeIn(800);
        $("pre").fadeOut(2000).fadeIn(1000);
