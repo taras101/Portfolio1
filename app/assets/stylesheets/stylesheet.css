@@ -18,6 +18,9 @@ header:after{
 	clear: both;
 	content: "";
 }
+a {
+	text-decoration: none;
+}
 ul{
 	text-align: center;
 }
