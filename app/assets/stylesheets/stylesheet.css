@@ -104,3 +104,56 @@ iframe{
 #burn-a{
  top: -300px;
 }
+#burn-g{
+	margin-bottom: 10px;
+}
+
+
+@media all and (max-width: 910px) and (min-width: 321px) {
+ pre{
+ 	font-size: 2.5em;
+ }
+ li{
+ 	margin: 25px;
+ }
+
+}
+
+@media all and (max-width: 320px) {
+	pre{
+ 	font-size: 1.2em;
+ }
+ li{
+ 	margin: 10px;
+ }
+ h2{
+ 	font-size: 2em;
+ }
+ h3{
+ 	font-size: 1em;
+ }
+ h4{
+ 	font-size: 1em;
+ }
+ .col2{
+ 	width: 100%;
+ 	float:none;
+ }
+ img.spk{
+ 	width: 44%;
+ }
+ .bio{
+	margin-left: 1em;
+	margin-right: 1em;
+
+ }
+
+}
+
+
+
+
+
+
+
+
