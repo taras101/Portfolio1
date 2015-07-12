@@ -1,6 +1,6 @@
 .col3{
-  height: 25px;
-	width: 16%;
+  height: 1px;
+	width: 17%;
 	float:left;
 }
 .col2{
@@ -27,6 +27,7 @@ ul{
 }
 .header-nav{
 	margin: 0;
+  padding: 0;
 }
 li{
 	display: inline;
@@ -36,6 +37,7 @@ body{
 	background-color: #283975;
 	color: dodgerblue;
 	font-family:  "Monda", "Arial Black";
+  font-size: 1em;
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -88,10 +90,11 @@ iframe{
 	color: dodgerblue;
 }
 .bio{
-	margin-left: 6em;
-	margin-right: 6em;
+	margin-left: 10%;
+	margin-right: 10%;
 	transition: color 1s ease;
 	color: white;
+  font-size: 1em;
 }
 .bio:hover {
   color: dodgerblue;
@@ -110,7 +113,7 @@ iframe{
 }
 
 
-@media all and (max-width: 910px) and (min-width: 361px) {
+@media (max-width: 910px) and (min-width: 381px) {
  pre{
  	font-size: 2.5em;
  }
@@ -120,9 +123,9 @@ iframe{
 
 }
 
-@media all and (max-width: 360px) {
-	pre{
- 	font-size: 1.2em;
+@media (max-width: 380px) {
+ pre{
+ 	font-size: 2em;
  }
  li{
  	margin: 10px;
@@ -144,9 +147,9 @@ iframe{
  	width: 44%;
  }
  .bio{
-	margin-left: 1em;
-	margin-right: 1em;
-
+	margin-left: 5%;
+	margin-right: 5%;
+  font-size: 1em;
  }
 
 }
