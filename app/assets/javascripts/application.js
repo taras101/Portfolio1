@@ -24,31 +24,31 @@
        $("span").delay(2500).fadeOut(600).fadeIn(800);
        $("pre").fadeOut(2000).fadeIn(1000);
        $("h3").fadeOut(2000).fadeIn(1000);
-     $(".bio").hide();
-            (function() {
-                    $("#burn-a").show().animate({top: "0"}, 800, function() {
-                      $("#burn-b").fadeIn(1500, function(){
-                            $("#burn-c").fadeIn(1500, function(){
-                              $("#burn-d").fadeIn(1500, function(){
-                                $("#burn-e").fadeIn(1500, function(){
-                                  $("#burn-f").fadeIn(1500, function(){
-                                    $("#burn-g").fadeIn(1500, function(){
-                                      $("#burn-h").fadeIn(1500, function(){
-                                        $("#burn-i").fadeIn(1500, function(){
-                                          $("#burn-j").fadeIn(1500, function(){
-                                            $("#burn-k").fadeIn(1500, function(){
-                                            });
-                                          });
-                                        });
-                                      });
-                                    });
-                                  });
-                                });
-                              });
-                            });
-                      });
-                    });
-             })();
+     // $(".bio").hide();
+     //        (function() {
+     //                $("#burn-a").show().animate({top: "0"}, 400, function() {
+     //                  $("#burn-b").fadeIn(200, function(){
+     //                        $("#burn-c").fadeIn(200, function(){
+     //                          $("#burn-d").fadeIn(200, function(){
+     //                            $("#burn-e").fadeIn(200, function(){
+     //                              $("#burn-f").fadeIn(200, function(){
+     //                                $("#burn-g").fadeIn(200, function(){
+     //                                  $("#burn-h").fadeIn(200, function(){
+     //                                    $("#burn-i").fadeIn(200, function(){
+     //                                      $("#burn-j").fadeIn(200, function(){
+     //                                        $("#burn-k").fadeIn(200, function(){
+     //                                        });
+     //                                      });
+     //                                    });
+     //                                  });
+     //                                });
+     //                              });
+     //                            });
+     //                          });
+     //                        });
+     //                  });
+     //                });
+     //         })();
 
     
 
